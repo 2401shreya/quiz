@@ -10,7 +10,7 @@ const Wrapper = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 10vh;
+    min-height: 2vh;
   }
 
   div {

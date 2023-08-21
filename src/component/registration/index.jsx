@@ -8,7 +8,7 @@ const RegistrationForm = () => {
   const[name, setName] = useState("");
   const[contact, setContact] = useState("");
   const[password, setPassword] = useState("");
-
+  
   const add =(e)=>{
     e.target.value="Registering..."
     e.target.disabled=true
@@ -22,6 +22,7 @@ const RegistrationForm = () => {
     e.target.value="Register"
     e.target.disabled=false
     console.log("Finally running")
+    
    })
   }
   return (
