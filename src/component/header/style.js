@@ -11,6 +11,7 @@ const Wrapper = styled.section`
     justify-content: center;
     align-items: center;
     min-height: 2vh;
+    
   }
 
   div {

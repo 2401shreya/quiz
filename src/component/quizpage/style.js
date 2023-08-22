@@ -1,10 +1,12 @@
 import { styled } from "styled-components";
 
 const Wrapper = styled.section`
-margin: 50px;
+margin: 30px 0;
+
 section {
+    
     display: flex;
-    padding: 20px;
+    padding: 20px 0;
 
     div {
       text-align: center;
@@ -20,6 +22,7 @@ section {
       height: 20vh;
       font-size: 25px;
       font-weight: 550;
+      border-radius: 5px;
       &:hover{
         color: #0056b3;
 `

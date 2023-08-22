@@ -1,4 +1,5 @@
 import Header from "./component/header";
+import Instructions from "./component/instructions";
 import Login from "./component/loginpage";
 import QuizPage from "./component/quizpage";
 import RegistrationForm from "./component/registration";
@@ -13,6 +14,7 @@ function App() {
       <Route path="/register" element={<RegistrationForm/>}/>
       <Route path="/" element={<Login/>}/>
       <Route path="/quizpage" element={<QuizPage />} />
+      <Route path="/instructions" element={<Instructions />} />
     </Routes>
    
     </BrowserRouter>
