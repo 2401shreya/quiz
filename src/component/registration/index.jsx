@@ -50,10 +50,9 @@ const handleChange = (event) => {
                   <option value="Faculty">Faculty</option>
                 </select>
           <input type="button" disabled={false} value="Register" onClick={add} />
-          <p>Already Registered ?</p>
-          <Link to="/" class="link">
+          <p>Already Registered ? <Link to="/" class="link">
             Log In
-          </Link>{" "}
+          </Link></p>
           &nbsp;
           <footer>&copy; copyright 2023</footer>
         </div>
