@@ -43,7 +43,7 @@ const Login = () => {
             <input type="text" placeholder="Contact" value={contact} onChange={(e) =>{setContact(e.target.value)}}/> <br/>
             <input type="password" placeholder="Password" value={password} onChange={(e) =>{setPassword(e.target.value)}}/> <br/>
             <input type="button" onClick={login} disabled={false} value="Log In"/> <br/>
-            <p>Are you a new user ?</p> <Link to="/register" class="link">Register User</Link>
+            <p>Are you a new user ? <Link to="/register" class="link">Register User</Link></p> 
 
             <footer>&copy; copyright 2023</footer>
         </div>
