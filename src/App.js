@@ -1,10 +1,13 @@
+import Student from "./component/Student";
 import Header from "./component/header";
-import Instructions from "./component/instructions";
 import Login from "./component/loginpage";
-import QuizPage from "./component/quizpage";
 import RegistrationForm from "./component/registration";
 import { Route,Routes } from "react-router";
 import { BrowserRouter } from "react-router-dom";
+import QuizDetails from "./component/quiz";
+import QuizResult from "./component/result";
+import Teacher from "./component/Teacher";
+import Question from "./component/Addques";
 
 function App() {
   return(
@@ -13,8 +16,11 @@ function App() {
     <Routes>
       <Route path="/register" element={<RegistrationForm/>}/>
       <Route path="/" element={<Login/>}/>
-      <Route path="/quizpage" element={<QuizPage />} />
-      <Route path="/instructions" element={<Instructions />} />
+      <Route path="/student" element={<Student/>}/>
+      <Route path="/quiz/:id" element={<QuizDetails/>}/>
+      <Route path="/quiz/:id/result" element={<QuizResult/>}/>
+      <Route path="/teacher" element={<Teacher/>}/>
+      <Route path="/addques" element={<Question/>}/>
     </Routes>
    
     </BrowserRouter>

@@ -16,7 +16,7 @@ const Wrapper = styled.section`
 
   div {
     h1 {
-      font-size: 24px;
+      font-size: 28px;
       margin: 0;
     }
   }

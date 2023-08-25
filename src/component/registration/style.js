@@ -41,14 +41,15 @@ $secondary-color: #e74c3c;
         color: $primary-color;
       }
 
-      input {
+
+      input, select {
         width: 90%;
         padding: 10px;
         margin-bottom: 10px;
         border: 1px solid #ccc;
         border-radius: 4px;
         font-family: 'Roboto', sans-serif;
-
+  
         &:focus {
           outline: none;
           border-color: $primary-color;
