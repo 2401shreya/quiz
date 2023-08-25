@@ -30,7 +30,7 @@ $secondary-color: #e74c3c;
     div {
       text-align: center;
       width: 250px;
-      height: 300px;
+      height: 285px;
       
 
       h1 {
@@ -70,7 +70,7 @@ $secondary-color: #e74c3c;
       }
 
       footer {
-        margin-top: 20px;
+        margin-top: 40px;
         color: #888;
       }
     }
